@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import Footer from "../../Share/Footer/Footer";
 import Header from "../../Share/Header/Header";
 import ProductCheckoute from "../ProductCheckoute/ProductCheckoute";
 
@@ -18,6 +19,7 @@ const ProductsDetail = () => {
       <div className="container">
         <ProductCheckoute product={product} />
       </div>
+      <Footer/>
     </>
   );
 };

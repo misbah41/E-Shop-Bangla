@@ -13,6 +13,13 @@ const DrinkWater = () => {
 
   return (
     <div className="container-fluid mb-5">
+      <div className="row">
+        <div className="col-sm-8">
+          <div className="content-title">
+            <h3 className='watertitle'>Drinking Water...</h3>
+          </div>
+        </div>
+      </div>
       <div className="row justify-content-center">
         {waters.map((waterData) => (
           <div className="col-sm-6 col-md-4 col-lg-3">

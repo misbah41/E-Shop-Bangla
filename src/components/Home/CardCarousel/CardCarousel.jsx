@@ -12,11 +12,15 @@ const CardCarousel = () => {
       .then((data) => setDrinkProduct(data));
   }, []);
 
-
-
   return (
-    <div className="mb-2 pb-5 container">
-      <h4>Cool Drink And Fruits Juice</h4>
+    <div className="mb-2 pb-5 container bg-light">
+      <div className="row">
+        <div className="col-sm-8">
+          <div className="content-title">
+            <h3 className="watertitle">Cool Drink And Fruits Juice</h3>
+          </div>
+        </div>
+      </div>
       <Carousel
         additionalTransfrom={0}
         arrows

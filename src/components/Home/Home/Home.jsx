@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import CarouselBanner from "../CarouselBanner/CarouselBanner";
 import Header from "../../Share/Header/Header";
 import Topbar from "../../Topbar/Topbar";
@@ -7,6 +8,8 @@ import FreshlyBanner from "../FreshlyBanner/FreshlyBanner";
 import CardCarousel from "../CardCarousel/CardCarousel";
 import DrinkWater from "../Water/DrinkWater";
 import GetOffer from "../GetOffer/GetOffer";
+import TopFoodList from "../TopFoodList/TopFoodList";
+import Footer from "../../Share/Footer/Footer";
 
 const Home = () => {
   return (
@@ -14,11 +17,13 @@ const Home = () => {
       <Topbar />
       <Header />
       <CarouselBanner />
+      <TopFoodList />
       <ProductsCard />
       <FreshlyBanner />
       <CardCarousel />
       <GetOffer />
       <DrinkWater />
+      <Footer />
     </>
   );
 };

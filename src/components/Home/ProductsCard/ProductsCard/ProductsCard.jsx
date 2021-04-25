@@ -14,6 +14,13 @@ const ProductsCard = () => {
   return (
     <section>
       <div className="container">
+      <div className="row">
+        <div className="col-sm-8">
+          <div className="content-title">
+            <h3 className="watertitle">Buy Healthy Friuts</h3>
+          </div>
+        </div>
+      </div>
         <div className="row justify-content-center">
           {fruitProducts.map((singleCard) => (
             <div className="col-lg-6">

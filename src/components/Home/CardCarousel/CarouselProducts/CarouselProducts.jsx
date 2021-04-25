@@ -2,8 +2,7 @@ import React from "react";
 import './CarouselProducts.css'
 const CarouselProducts = ({drinkData}) => {
   return (
-    <div className='carouselCard'>
-      <p>{drinkData.discount}% { drinkData.productsOff}</p>
+    <div className='carouselCard pt-5'>
       <img style={{ height:'200px'}} src={`data:image/png;base64,${drinkData.image.img}`} alt="" />
       <div className="drink-content">
         <h4 className='carouselPdName'>{drinkData.name}</h4>
