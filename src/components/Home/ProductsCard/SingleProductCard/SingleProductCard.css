@@ -1,0 +1,164 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+.product-div {
+  margin-top: 40px;
+  padding-right: 10px;
+  -webkit-box-shadow: 2px 3px 15px -10px #00000070;
+  box-shadow: 2px 3px 15px -10px #00000070;
+}
+.single-card .product-list {
+  display: flex !important;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.single-card {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 3px 24px rgb(0 0 0 / 4%);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.cardImg {
+  width: 200px;
+  margin-right: 15px;
+}
+
+.cardImg {
+  overflow: hidden;
+}
+.cardImg > img {
+  width: 100%;
+  transition: 0.3s;
+}
+.cardImg:hover img{
+  transform: scale(1.2) rotate(3deg);
+}
+
+.pd-description{
+  color: #838383;
+  margin-top: 20px;
+}
+
+
+
+
+
+button.snip0050 {
+  border: none;
+  background-color: #50bd4d;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+  position: relative;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 25px;
+}
+button.snip0050 span {
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0.8;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+button.snip0050 i {
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  color: rgb(184, 0, 0);
+}
+button.snip0050:before {
+  border-radius: 3px;
+  content: "";
+  top: 2px;
+  bottom: 2px;
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+button.snip0050:hover,
+button.snip0050.hover {
+  color: #000000;
+}
+button.snip0050:hover.blue,
+button.snip0050.hover.blue {
+  color: #20638f;
+}
+button.snip0050:hover.red,
+button.snip0050.hover.red {
+  color: #962d22;
+}
+button.snip0050:hover.yellow,
+button.snip0050.hover.yellow {
+  color: #a85913;
+}
+button.snip0050:hover span,
+button.snip0050.hover span {
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+button.snip0050:hover i,
+button.snip0050.hover i {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+button.snip0050:hover:before,
+button.snip0050.hover:before {
+  left: 3px;
+  right: 3px;
+  background: #ffffff;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+button.snip0050:active:before {
+  background: rgba(255, 255, 255, 0.7);
+}
+button.snip0050.red {
+  background-color: #962d22;
+}
+
+.pd-name{
+  font-weight: 400;
+  font-size: 22px;
+  transition: 0.5s;
+}
+.pd-name:hover{
+  color: #50bd4d;
+}
+.product-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1c7e19;
+}
+
+.buy-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

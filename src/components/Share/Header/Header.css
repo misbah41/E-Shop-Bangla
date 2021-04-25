@@ -1,0 +1,41 @@
+.navigation {
+  background-color: rgb(85, 83, 83);
+}
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  height: 50px;
+}
+.menuItem {
+  list-style: none;
+  margin-left: 10px;
+}
+.menu-link {
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  color: aliceblue;
+}
+.menu-link:hover{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.categories{
+  background-color: rgb(184, 0, 0);
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  width: 200px;
+}
+.categoreiItems{
+  margin-top: 14px;
+  color: aliceblue;
+}

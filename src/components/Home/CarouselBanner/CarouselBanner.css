@@ -1,0 +1,12 @@
+
+.carouselbg {
+  padding: 60px 0 30px;
+  background-color: #fff;
+  background-image: url('./carouselbanner.png');
+  background-position: -110px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+}
+
+

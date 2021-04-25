@@ -1,0 +1,46 @@
+.waterCard {
+  -webkit-box-shadow: 1px 5px 17px -6px rgba(0, 0, 0, 0.219);
+  box-shadow: 1px 5px 17px -6px rgba(0, 0, 0, 0.219);
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.discount{
+  background-color: #d32000;
+  width: 30%;
+  color: aliceblue;
+  margin: 0 auto;
+}
+.waterPdName{
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #34a830;
+}
+
+.priceDrink{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.waterimg{
+  overflow: hidden;
+}
+ .waterimg:hover img{
+  transform: scale(1.2) rotate(1deg);
+  transition: 0.5s;
+}
+
+
+.water-btn {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px 22px;
+  background-color: #34a830;
+  color: aliceblue;
+}
+
+.quick-btn {
+  background-color: rgba(128, 128, 128, 0.089);
+  color: #34a830;
+}
