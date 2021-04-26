@@ -6,7 +6,7 @@ const DrinkWater = () => {
   const [waters, setWaters] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3500/drinkWater")
+    fetch("https://peaceful-caverns-55095.herokuapp.com/drinkWater")
       .then((res) => res.json())
       .then((data) => setWaters(data));
   }, []);

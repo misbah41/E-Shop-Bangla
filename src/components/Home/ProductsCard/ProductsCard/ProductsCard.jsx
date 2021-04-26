@@ -6,7 +6,7 @@ const ProductsCard = () => {
   const [fruitProducts, setFruitProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3500/fruitProducts")
+    fetch("https://peaceful-caverns-55095.herokuapp.com/fruitProducts")
       .then((res) => res.json())
       .then((data) => setFruitProducts(data));
   }, []);

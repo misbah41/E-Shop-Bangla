@@ -7,7 +7,7 @@ const CardCarousel = () => {
   const [drinkProduct, setDrinkProduct] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3500/drinkProducts")
+    fetch("https://peaceful-caverns-55095.herokuapp.com/drinkProducts")
       .then((res) => res.json())
       .then((data) => setDrinkProduct(data));
   }, []);

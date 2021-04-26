@@ -25,7 +25,7 @@ const AddService = () => {
     formData.append("description", info.description);
     formData.append("subdescription", info.subdescription);
 
-    fetch("http://localhost:3500/addProducts", {
+    fetch("https://peaceful-caverns-55095.herokuapp.com/addProducts", {
       method: "POST",
       // headers: {'content-Type':'application/json'},
       body: formData,
