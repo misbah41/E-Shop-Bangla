@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./SingleProductCard.css";
 const SingleProductCard = ({ singleCard }) => {
   return (
-    <div className="d-flex jsutify-content-between product-div pt-4">
+    <div className=" product-div pt-4">
       <div className="cardImg">
         <img src={`data:image/png;base64,${singleCard.image.img}`} alt="" />
       </div>

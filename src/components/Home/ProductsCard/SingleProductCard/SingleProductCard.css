@@ -5,6 +5,8 @@
   padding-right: 10px;
   -webkit-box-shadow: 2px 3px 15px -10px #00000070;
   box-shadow: 2px 3px 15px -10px #00000070;
+  display: flex;
+  justify-content: space-between;
 }
 .single-card .product-list {
   display: flex !important;
@@ -162,3 +164,19 @@ button.snip0050.red {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .product-div{
+    display: block;
+  }
+  .cardImg {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+

@@ -4,7 +4,28 @@
 footer {
   background-color: rgb(2, 51, 73);
   padding-top: 50px;
+  position: relative;
+  overflow: hidden;
 }
+
+footer::before{
+  height: 80%;
+  width: 150%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  content: '';
+  background-color: rgb(1, 32, 46);
+  transform: rotate(30deg);
+}
+
+.privacy{
+  padding-top: 161px;
+}
+.privacy>a{
+  color: aliceblue;
+}
+
 
 .footer-title {
   font-weight: 700;
@@ -47,6 +68,13 @@ footer {
   opacity: 10;
 }
 
+
+
+
+
+
+
+
 .snip1180 {
   width: 50px;
   height: 50px;
@@ -75,3 +103,4 @@ footer {
   /* background-color: #fff; */
   border: 2px solid rgb(255, 255, 255);
 }
+

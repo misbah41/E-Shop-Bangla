@@ -32,7 +32,7 @@ const FooterSocial = () => {
         <button className=" ml-4">Sign Up</button>
       </div>
       <div className="col-md-6">
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-around privacy">
           <a href="#">Privacy Policy</a>
           <a href="#">Refund Policy</a>
           <a href="#">Cookie Policy</a>

@@ -10,6 +10,7 @@ import DrinkWater from "../Water/DrinkWater";
 import GetOffer from "../GetOffer/GetOffer";
 import TopFoodList from "../TopFoodList/TopFoodList";
 import Footer from "../../Share/Footer/Footer";
+import FollowUs from "../FollowUs/FollowUs";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <CardCarousel />
       <GetOffer />
       <DrinkWater />
+      <FollowUs />
       <Footer />
     </>
   );
