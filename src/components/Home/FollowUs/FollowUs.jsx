@@ -21,7 +21,7 @@ const FollowUs = () => {
         </div>
         <div className="col-lg-8">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}
@@ -29,7 +29,7 @@ const FollowUs = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}
@@ -37,7 +37,7 @@ const FollowUs = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}
@@ -45,7 +45,7 @@ const FollowUs = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}
@@ -53,7 +53,7 @@ const FollowUs = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}
@@ -61,7 +61,7 @@ const FollowUs = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+            <div className="col-lg-4 col-md-4 col-sm-6 ">
               <div className="imgBox">
                 <a className='followimg' href="#">
                   {" "}

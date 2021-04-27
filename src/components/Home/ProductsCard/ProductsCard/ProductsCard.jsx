@@ -11,6 +11,7 @@ const ProductsCard = () => {
       .then((data) => setFruitProducts(data));
   }, []);
 
+  console.log(fruitProducts);
   return (
     <section>
       <div className="container">

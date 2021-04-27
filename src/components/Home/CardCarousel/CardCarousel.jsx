@@ -13,7 +13,7 @@ const CardCarousel = () => {
   }, []);
 
   return (
-    <div className="mb-2 pb-5 container bg-light">
+    <div className="mb-2 pb-5 container-fluid bg-light">
       <div className="row">
         <div className="col-sm-8">
           <div className="content-title">
