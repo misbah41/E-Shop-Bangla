@@ -10,3 +10,41 @@
 }
 
 
+.searchTitle{
+  font-weight: 800;
+  color: rgb(1, 153, 1);
+  margin-top: 60px;
+}
+.searchBox{
+  margin-top: 100px;
+  
+}
+
+
+.search{
+  padding: 10px 22px;
+  border: 2px solid rgb(2, 184, 26)!important;
+
+}
+
+.searchBtn{
+  padding: 6px 22px;
+  width: 40%;
+  border: none;
+  outline: none;
+  background-color: rgb(2, 184, 26);
+  margin-left: -30px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
