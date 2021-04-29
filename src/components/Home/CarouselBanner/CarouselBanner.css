@@ -2,7 +2,7 @@
 .carouselbg {
   padding: 60px 0 30px;
   background-color: #fff;
-  background-image: url('./carouselbanner.png');
+  background-image: url('./orange.svg');
   background-position: -110px 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -13,7 +13,7 @@
 .searchTitle{
   font-weight: 800;
   color: rgb(1, 153, 1);
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .searchBox{
   margin-top: 100px;

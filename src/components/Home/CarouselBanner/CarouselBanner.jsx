@@ -4,7 +4,7 @@ const CarouselBanner = () => {
   return (
     <div className="carouselbg">
       <div className="container">
-        <h3 className='text-center searchTitle'>Shop With Your Favourite Things</h3>
+        <h3 className='text-center searchTitle'>Shop  Your Favourite Things</h3>
         <div className="row justify-content-center">
           <div className="col-sm-8">
             <div className="d-flex justify-content-around searchBox">
